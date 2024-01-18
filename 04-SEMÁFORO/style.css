@@ -1,0 +1,28 @@
+body {
+background-color: blue;
+}
+header {
+text-align: center;
+font: italic bold 1.5rem serif;
+}
+button {
+width: 80px;
+height: 40px;
+cursor: pointer;
+}
+.painel {
+margin: auto;
+width: 500px;
+height: 550px;
+background-color: white;
+border-radius: 20px;
+box-shadow: 0 0 10px black;
+text-align: center;
+padding-top: 50px;
+font-family: normal 1.5rem serif;
+}
+.footer {
+padding: 30px;
+font: italic bold 1.4rem serif;
+text-align: center;
+}

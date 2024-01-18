@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(241, 49, 241);
+}
+.painel{
+    margin: auto;
+    width: 500px;
+    height: 600px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    padding-top: 50px;
+    font-family: normal 1.5rem serif;
+}
+#sim{
+    height: 40px;
+    width: 60px;
+    background-color: rgb(255, 0, 200);
+    border: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    margin-left: -60px;
+    cursor: pointer;
+}
+#nao{
+    position: absolute;
+    height: 40px;
+    width: 60px;
+    background-color: rgb(255, 0, 200);
+    border: white;
+    border-radius: 10px;
+    color: white;
+    margin-left: 10px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.footer{
+    padding: 20px;
+    font: italic bold 1.3rem serif;
+}
