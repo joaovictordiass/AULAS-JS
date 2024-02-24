@@ -7,6 +7,7 @@
 
 body{
     padding: 20px;
+    height: 100VH;
     padding-right: 100px;
     padding-left: 100px;
 }
@@ -32,6 +33,7 @@ body{
 .menu {
     display: flex;
     justify-content: center;
+    margin-top: 40px;
 }
 
 .conteudo {
@@ -49,7 +51,7 @@ body{
     width: 600px;
     display: flex;
     justify-content: flex-end;
-    margin-top: 150px;
+    margin-top: 310px;
     z-index: 2;
 }
 
@@ -69,7 +71,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    clip-path: circle(600px at right 700px);
+    clip-path: circle(600px at right 800px);
 }
 
 h1 {
