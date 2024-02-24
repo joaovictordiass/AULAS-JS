@@ -1,7 +1,8 @@
-body{
+body {
     background-color: rgb(241, 49, 241);
 }
-.painel{
+
+.painel {
     margin: auto;
     width: 500px;
     height: 600px;
@@ -12,18 +13,25 @@ body{
     padding-top: 50px;
     font-family: normal 1.5rem serif;
 }
-#sim{
+
+#sim {
     height: 40px;
     width: 60px;
     background-color: rgb(255, 0, 200);
     border: white;
-    border: 2px solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
     border-radius: 10px;
     color: white;
     margin-left: -60px;
     cursor: pointer;
+    font-weight: bold;
 }
-#nao{
+
+#sim:hover {
+    color: black;
+}
+
+#nao {
     position: absolute;
     height: 40px;
     width: 60px;
@@ -34,8 +42,11 @@ body{
     margin-left: 10px;
     border: 2px solid white;
     cursor: pointer;
+    font-weight: bold;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.363);
 }
-.footer{
+
+.footer {
     padding: 20px;
     font: italic bold 1.3rem serif;
 }
