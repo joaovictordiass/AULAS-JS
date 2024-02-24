@@ -1,28 +1,41 @@
 body {
-background-color: blue;
+    background-color: blue;
 }
+
 header {
-text-align: center;
-font: italic bold 1.5rem serif;
+    text-align: center;
+    font: italic bold 1.5rem serif;
 }
+
 button {
-width: 80px;
-height: 40px;
-cursor: pointer;
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    border-radius: 10px;
+    background: white;
+    border: solid 2px blue;
+    color: black;
 }
+
+button:hover {
+    background: blue;
+    color: white;
+}
+
 .painel {
-margin: auto;
-width: 500px;
-height: 550px;
-background-color: white;
-border-radius: 20px;
-box-shadow: 0 0 10px black;
-text-align: center;
-padding-top: 50px;
-font-family: normal 1.5rem serif;
+    margin: auto;
+    width: 500px;
+    height: 560px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    padding-top: 50px;
+    font-family: normal 1.5rem serif;
 }
+
 .footer {
-padding: 30px;
-font: italic bold 1.4rem serif;
-text-align: center;
+    padding: 30px;
+    font: italic bold 1.4rem serif;
+    text-align: center;
 }

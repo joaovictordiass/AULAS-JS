@@ -1,29 +1,43 @@
 body {
     background-color: blueviolet;
 }
-header, main {
+
+header,
+main {
     display: flex;
     flex-direction: column;
     align-items: center;
     font-style: italic;
 }
+
 button {
     width: 80px;
     height: 40px;
     cursor: pointer;
+    border-radius: 10px;
+    background: white;
+    border: solid 2px blueviolet;
+    color: black;
 }
+
+button:hover {
+    color: white;
+    background: blueviolet;
+}
+
 .painel {
-margin: auto;
-width: 500px;
-height: 500px;
-background-color: white;
-border-radius: 20px;
-box-shadow: 0 0 10px black;
-text-align: center;
-padding-top: 50px;
-font-family: normal 1.5rem serif;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    padding-top: 50px;
+    font-family: normal 1.5rem serif;
 }
+
 .footer {
-padding: 60px;
-font: italic bold 1.4rem serif;
+    padding: 60px;
+    font: italic bold 1.4rem serif;
 }
